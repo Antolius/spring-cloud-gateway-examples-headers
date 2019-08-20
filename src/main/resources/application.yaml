@@ -1,0 +1,9 @@
+backend.url: 'http://localhost:8090'
+spring.cloud.gateway.filter.remove-hop-by-hop.headers:
+    - transfer-encoding
+    - te
+    - trailer
+    - proxy-authorization
+    - proxy-authenticate
+    - x-application-context
+    - upgrade
